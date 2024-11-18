@@ -9,8 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--main-bg-color);
-    /* display: flex;
+    /* display: grid;
     justify-content: center;
     align-items: center; */
     height: 100vh;
@@ -23,6 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: var(--main-bg-color);
     height: 100%;
     
 }
