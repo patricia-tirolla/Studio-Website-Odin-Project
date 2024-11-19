@@ -1,0 +1,31 @@
+.meet-us-section {
+    /* grid-row: 2; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 80%;
+
+}
+.meet-us-title {
+    justify-self:center;
+    align-self: center;
+}
+
+
+.meet-us-member-main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 5% 10%;
+
+}
+
+.meet-us-member-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    flex-basis: 25%;
+    height: 90%;
+    justify-content: flex-end; 
+    padding: 2% 2%;
+
+}
