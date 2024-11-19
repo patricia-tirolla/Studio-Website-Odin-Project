@@ -1,1 +1,41 @@
-/* hello natalia here */
+/* contact us section */
+.contact-us-section {
+    /* to be changed */
+    background-color: black;
+    color:white;
+    /* grid-row: 1/2; */
+     /* to be changed STOPS */
+
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80% 20%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contact-us-container-left {
+    grid-column: 1;
+    align-content: center;
+    margin: auto;
+
+}
+
+.contact-us-container-right{
+    margin: auto;
+    grid-column: 2;
+    align-content: center;
+    margin: auto;
+
+}
+.contact-button-getstarted {
+    grid-column: 1/3;
+    grid-row: 2;
+    width: fit-content;
+    justify-self:center;
+    align-self: start; /*vertical */
+    
+}
