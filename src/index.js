@@ -1,1 +1,2 @@
-console.log("It works!");
+import './styles/form.css';
+import './styles/header.css';
