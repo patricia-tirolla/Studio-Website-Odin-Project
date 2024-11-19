@@ -1,30 +1,55 @@
+body {
+   
+   display: grid;
+   /* grid-template-rows: 10vh 50vh 100vh 60vh 70vh 60vh 100vh 10vh; */
+   grid-template-rows: 10vh 440vh 10vh;
+   grid-template-columns: 100vw;
+}
 
-  .as{
-    margin: 10vh 15vh 9vh 0vh;
-  }
 
-  .image-column img {
-      width: 100%;
-      height: auto;
-      border-radius: 5px;
-  }
-  
- 
-  @media (min-width: 768px) and (max-width: 1024px) {
-      .image-column img {
-          width: 80%;
-          margin-left: auto;
-          margin-right: auto;
-          display: block;
-      }
-  }
-  
-  
-  @media (min-width: 1025px) {
-      .image-column img {
-          width: 80%;
-          margin-left: 0;
-          margin-right: 0;
-      }
-  }
-  
+.Header-Nav-Bar {
+    height: 100%;
+    grid-row: 1/2;
+    
+}
+
+main {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 50vh 100vh 60vh 70vh 60vh 100vh;
+}
+
+.hero {
+    height: 100%;
+    grid-row: 1/2;
+}
+
+.projects-section {
+    height: 100%;
+    grid-row: 2/3;
+}
+
+.contact-us-section {
+    height: 100%;
+    grid-row: 3/4;
+}
+
+.meet-us-section {
+    height: 100%;
+    grid-row: 4/5;
+}
+
+.languages-container {
+    height: 100%;
+    grid-row: 5/6;
+}
+
+.form-section {
+    height: 100%;
+    grid-row: 6/7;
+}
+
+.footer-section {
+    height: 100%;
+    grid-row: 3/4;
+}

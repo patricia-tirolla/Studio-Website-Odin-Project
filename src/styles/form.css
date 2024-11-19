@@ -4,26 +4,16 @@
     --text-color: #e0e6ed;
     --button-color: #20dfae;
 }
-
-/* General Reset */
-body {
-    margin: 0;
-    padding: 0;
-    /* display: grid;
-    justify-content: center;
-    align-items: center; */
-    height: 100vh;
-    /* font-family: "Roboto Mono", monospace; */
-}
-
 /* Form Section */
 .form-section {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: fit fit-content;
+    box-sizing: border-box;
     background-color: var(--main-bg-color);
-    height: 100%;
+
     
 }
 
@@ -34,7 +24,7 @@ body {
     border-radius: 10px;
     width: 400px;
     text-align: center;
-    
+
 }
 
 .form-container h2 {
