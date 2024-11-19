@@ -2,57 +2,62 @@
 <html lang="en">
 
 <head>
-      
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NNOP</title>
-      
-        <link rel="icon" type="img/x-icon" href="../src/img/output-onlinepngtools (1).png">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        
-        <div class="Header-Nav-Bar">
-            <div class="navbar">
-              <a class="navbar-brand" href="#">NNOP</a>
-              <ul class="navbar-nav">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NNOP</title>
+
+    <link rel="icon" type="img/x-icon" href="../src/img/output-onlinepngtools (1).png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="Header-Nav-Bar">
+        <div class="navbar">
+            <a class="navbar-brand" href="#">NNOP</a>
+            <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Feature</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
                 <li class="nav-item"><a class="nav-link disabled" href="#">About</a></li>
-              </ul>
-              <form class="form">
+            </ul>
+            <form class="form">
                 <button type="submit" style="border: 2px dashed black;">Get Started</button>
                 <button type="submit">Read More</button>
-              </form>
-            </div>
-          </div>
-        
-         
-          <div class="Header-Text-Pic">
-            <div class="text-section">
-              <h5>Lorem ipsum</h5>
-              <h1>Lorem ipsum dolor sit amet</h1>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab nobis, eligendi soluta, rerum voluptatibus voluptatem magni dolores repudiandae iste blanditiis recusandae odit eos quae aut adipisci aliquid facere laborum!
-              </p>
-              <div class="btn-section">
+            </form>
+        </div>
+    </div>
+
+
+    <div class="Header-Text-Pic">
+        <div class="text-section">
+            <h5>Lorem ipsum</h5>
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab nobis, eligendi soluta, rerum
+                voluptatibus voluptatem magni dolores repudiandae iste blanditiis recusandae odit eos quae aut adipisci
+                aliquid facere laborum!
+            </p>
+            <div class="btn-section">
                 <button type="submit" style="border: 2px dashed black;">Get Started</button>
                 <button type="submit">Read More</button>
-              </div>
             </div>
-            <div class="image-section">
-              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                   alt="Sample Image">
-            </div>
-          </div>
+        </div>
+        <div class="image-section">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Sample Image">
+        </div>
+    </div>
 
     <main>
-        <h1>Hello, World!</h1>
         <section id="projects-section">
             <!-- ---------------Patricia -->
             <h2>Our Projects</h2>
             <p>This section contains some of our projects.</p>
+            <div class="projects-container">
+                <!-- Projects will be displayed here -->
+            </div>
         </section>
 
         <section id="contact-section">
@@ -88,25 +93,27 @@
 
     <!-- --------------------- PROJECTS TEMPLATE -->
     <template class="project-template">
-        <h1>Project Title</h1>
-        <div class="project-skills-container">
-            <!-- <span class="project-skills">HTLM</span>
+        <div class="project-cell">
+            <h5>Project Title</h5>
+            <p class="author">Author</p>
+            <div class="project-skills-container">
+                <!-- <span class="project-skills">HTLM</span>
             <span class="project-skills">CSS</span>
             <span class="project-skills">JavaScript</span> -->
-        </div>
-        <p class="author">Author</p>
-        <div class="project-buttons-container">
-            <a class="preview-link">
-                <button class="project-buttons preview-button">Preview</button>
-            </a>
-        
-            <a class="code-link">
-                <button class="project-buttons code-button">Code</button>
-            </a>
+            </div>
+            <div class="project-buttons-container">
+                <a class="preview-link">
+                    <button class="project-buttons preview-button">Preview</button>
+                </a>
+
+                <a class="code-link">
+                    <button class="project-buttons code-button">Code</button>
+                </a>
+            </div>
         </div>
     </template>
 
- 
+
     <script src="form.js"></script>
 </body>
 

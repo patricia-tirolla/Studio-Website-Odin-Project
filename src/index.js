@@ -2,6 +2,7 @@
 import "./styles/contact-section.css";
 import "./styles/form.css";
 import "./styles/projects-section.css";
+import "./styles/main.css"
 
 import { displayProjects } from "./projectsUI";
 
