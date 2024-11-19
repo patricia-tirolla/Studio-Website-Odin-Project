@@ -1,0 +1,81 @@
+.meet-us-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 80%;
+
+}
+.meet-us-title {
+    /* font-size: 2rem; */
+    justify-self:center;
+    align-self: center;
+}
+
+
+.meet-us-member-main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 5% 10%;
+
+}
+
+.meet-us-member-container {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    flex-basis: 25%;
+    height: 100%;
+    width:fit-content;
+    justify-content: flex-end; 
+    background-image: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    
+
+}
+
+.meet-us-description-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.825);
+    color: rgb(0, 0, 0);
+    padding: 5% 5%;
+    display: block;
+    visibility: hidden;
+    transform: translateY(100%);
+    transition: opacity 1s ease, transform 1s ease, visibility 0s ease 1s;
+    
+}
+
+.meet-us-member-container:hover .meet-us-description-container {
+
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Move to original position */
+    transition: opacity 1s ease, transform 1s ease;
+  }
+
+.meet-us-icon-container {
+    display: flex;
+    align-content: space-around;
+    gap: 5%;
+    margin-top: 2%;
+}
+
+.meet-us-icon {
+    width: 12%;
+}
+
+.meet-us-member-container.Natalia {
+    background-image: url("/src/img/natalia-profile.jpeg");
+   
+}
+
+.meet-us-member-container.Odai {
+    background-image: url("/src/img/odai.png");
+   
+}
+   
+

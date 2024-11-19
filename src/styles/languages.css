@@ -1,0 +1,25 @@
+.languages-container {
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.languages-icons-container {
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    gap: 10%;
+    justify-content: center;
+}
+
+.languages-title {
+    justify-self: center;
+    align-self: center;
+
+}
+
+.languages-icon {
+    width: 20vh;
+    height: fit-content;
+
+}
