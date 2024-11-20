@@ -9,6 +9,8 @@
     --background-description-container: rgba(255, 255, 255, 0.825);
 
     --color-description-container: rgb(0, 0, 0);
+    --title-font-size: 2rem;
+   /* --title font-weight: 600; */
 }
 
 body {
