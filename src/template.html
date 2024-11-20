@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./styles/form.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/">
   </head>
   <body>
     <header class="Header-Nav-Bar">
       <div class="navbar">
         <a class="navbar-brand" href="#">NNOP</a>
+        <div class="navbar-toggle" onclick="toggleMenu()">☰</div>
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Feature</a></li>
@@ -26,7 +28,7 @@
           </li>
         </ul>
         <form class="form">
-          <button type="submit" style="border: 2px dashed black">
+          <button type="submit">
             Get Started
           </button>
           <button type="submit">Read More</button>
@@ -38,16 +40,23 @@
       <section class="hero">
         <div class="Header-Text-Pic">
           <div class="text-section">
-            <h5>Lorem ipsum</h5>
+            <h5>Building the Future of Interfaces</h5>
+            <h1>We Bring Your Ideas to Life</h1>
+           
+            <p> We are a dedicated team of four front-end developers committed to<br>
+               crafting unique digital experiences.<br>
+                Our products are thoughtfully designed to meet your needs with<br>
+                 precision and care.quality and innovation are our top priorities.</p>
+                 <!-- <h5>Lorem ipsum</h5>
             <h1>Lorem ipsum dolor sit amet</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab
               nobis, eligendi soluta, rerum voluptatibus voluptatem magni
               dolores repudiandae iste blanditiis recusandae odit eos quae aut
               adipisci aliquid facere laborum!
-            </p>
+            </p> -->
             <div class="btn-section">
-              <button type="submit" style="border: 2px dashed black">
+              <button type="submit">
                 Get Started
               </button>
               <button type="submit">Read More</button>
@@ -62,9 +71,12 @@
         </div>
       </section>
 
-      <section class="projects-section">
-        <h1>Hello, World!</h1>
+      <section id="projects-section" class="projects-section">
+        <!-- <h1>Hello, World!</h1> -->
         <!-- ---------------Patricia -->
+         <div class="projects-container">
+
+         </div>
       </section>
 
       <!-- ---------------Nati -->
@@ -191,12 +203,26 @@
 
     <!-- --------------------- PROJECTS TEMPLATE -->
     <template class="project-template">
-      <h1>Project Title</h1>
-      <span>Skills</span>
-      <p>Author</p>
-      <a href=""></a>
+        <div class="project-cell">
+            <h5>Project Title</h5>
+            <div class="img-container"></div>
+            <p class="author">Author</p>
+            <div class="project-skills-container">
+              
+            </div>
+            <div class="project-buttons-container">
+                <a class="preview-link">
+                    <button class="project-buttons preview-button">View Project</button>
+                </a>
+
+                <a class="code-link">
+                    <button class="project-buttons code-button">Code</button>
+                </a>
+            </div>
+        </div>
     </template>
 
+ 
     <script src="form.js"></script>
   </body>
 </html>

@@ -1,17 +1,28 @@
-import { Project, projectList, addNewProjectToProjectList } from "./projects";
-
-export function createNewProjectCard() {
-    let projectsContainer = document.getElementById("projects-container");
-    projectsContainer.innerHTML = "";
+import {projectList,  } from "./projects";
 
 
+export function displayProjects() {
+    let projectsContainer = document.querySelector(".projects-container");
+    
     projectList.forEach((project) => {
 
     
-    const projectTemplate = document.querySelector("project.template");
-    let clone = projectTemplate.conten.cloneNode(true);
+    const projectTemplate = document.querySelector(".project-template");
+    let clone = projectTemplate.content.cloneNode(true);
+    
+    clone.querySelector("h5").textContent = project.title;
+    clone.querySelector(".author").textContent = project.author;
+    clone.querySelector(".preview-link").setAttribute('href', project.previewLink); 
+    clone.querySelector(".code-link").setAttribute('href', project.codeLink);
+    clone.querySelector(".img-container").style.backgroundImage = `url(${project.picture})`;
 
-    // Unfinished - interact with the template
+    for (let skill of project.skills) {
+        let spanCreation = document.createElement("span");
+        spanCreation.textContent = skill;
+        clone.querySelector(".project-skills-container").appendChild(spanCreation);
+    }
 
+    projectsContainer.appendChild(clone);
     })
+
 }
