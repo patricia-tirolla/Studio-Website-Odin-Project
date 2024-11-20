@@ -1,11 +1,16 @@
+:root {
+    --main-bg-color: #283C48;
+    --secondary-bg-color: #19303D;
+    --text-color: #e0e6ed;
+    --button-color: #20dfae;
+}
+
+
 /* contact us section */
 .contact-us-section {
     /* to be changed */
-    background-color: black;
-    color:white;
-    /* grid-row: 1/2; */
-     /* to be changed STOPS */
-
+    background-color: var(--main-bg-color);
+    color:var(--text-color);
     margin: auto;
     width: 100%;
     height: 100%;
@@ -32,10 +37,12 @@
 
 }
 .contact-button-getstarted {
+    background-color: var(--button-color);
+    color:var(--secondary-bg-color);
     grid-column: 1/3;
     grid-row: 2;
     width: fit-content;
     justify-self:center;
-    align-self: start; /*vertical */
+    align-self: start;
     
 }

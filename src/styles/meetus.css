@@ -1,3 +1,11 @@
+:root {
+    --main-bg-color: #283C48;
+    --secondary-bg-color: #19303D;
+    --text-color: #e0e6ed;
+    --button-color: #20dfae;
+}
+
+
 .meet-us-section {
     display: grid;
     grid-template-columns: 1fr;
@@ -6,6 +14,7 @@
 }
 .meet-us-title {
     /* font-size: 2rem; */
+    color: var(--secondary-bg-color);
     justify-self:center;
     align-self: center;
 }
@@ -14,6 +23,7 @@
 .meet-us-member-main-container {
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     gap: 5%;
     margin: 5% 10%;
 
@@ -22,13 +32,14 @@
 .meet-us-member-container {
     position: relative;
     display: inline-block;
-    border: 1px solid black;
     flex-basis: 25%;
-    height: 100%;
-    width:fit-content;
-    justify-content: flex-end; 
-    background-image: no-repeat;
-    background-size: 100% 100%;
+    max-width:200px;
+    min-width: 50px;
+    min-height: 300px;
+    height: fit-content;
+    
+    background-size:auto;
+    background-position: center;
     overflow: hidden;
     
 
@@ -60,22 +71,45 @@
 .meet-us-icon-container {
     display: flex;
     align-content: space-around;
-    gap: 5%;
+    gap: 10%;
     margin-top: 2%;
 }
 
 .meet-us-icon {
-    width: 12%;
+    width: 20px;
+    transition: transform 0.3s ease;
 }
 
-.meet-us-member-container.Natalia {
-    background-image: url("/src/img/natalia-profile.jpeg");
-   
+
+.meet-us-linkedin-btn:hover .meet-us-icon{
+    transform: scale(1.3);
 }
+
+
+.meet-us-github-btn:hover .meet-us-icon{
+    transform: scale(1.3);
+}
+
+.meet-us-member-container.Patricia {
+    background-image: url("/src/img/Odai-img.png"); 
+}
+
 
 .meet-us-member-container.Odai {
-    background-image: url("/src/img/odai.png");
-   
+    background-image: url("/src/img/Odai-img.png"); 
 }
+
+.meet-us-member-container.Naghmeh {
+    background-image: url("/src/img/naghmeh-img.png"); 
+} 
+
+
+.meet-us-member-container.Natalia {
+    background-image: url("/src/img/Natalia-img.png");
+}
+
+
+
    
+
 

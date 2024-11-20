@@ -1,6 +1,6 @@
 .languages-container {
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 30% 70%;
 }
 
 .languages-icons-container {
@@ -13,8 +13,9 @@
 }
 
 .languages-title {
+    color: var(--secondary-bg-color);
     justify-self: center;
-    align-self: center;
+    align-self:flex-end;
 
 }
 
