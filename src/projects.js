@@ -1,11 +1,68 @@
-export const projectList = [];
+import todoListPic from "./img/todo-list.png"
 
-export function Project(title, skills, author ) {
-    this.title = title,
-    this.skills = skills,
-    this.author = author
-}
+export const projectList = [
+    {
+        title: "To-do List",
+        skills: ["HTML", "CSS", "JavaScript"],
+        author: "Patricia Tirolla",
+        picture: todoListPic,
+        previewLink: "https://patricia-tirolla.github.io/Todo-list-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Todo-list-Odin-Project-", 
+    },
 
-export function addNewProjectToProjectList() {
-    projectList.push(new Project(title, skills, author))
-}
+    {
+        title: "Tic-Tac-Toe",
+        skills: ["HTML", "CSS", "JavaScript"],
+        author: "Patricia Tirolla",
+        previewLink: "https://patricia-tirolla.github.io/Tic-Tac-Toe-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Tic-Tac-Toe-Odin-Project-", 
+    },
+
+    {
+        title: "To-do List",
+        skills: ["HTML", "CSS", "JavaScript"],
+        author: "Patricia Tirolla",
+        previewLink: "https://patricia-tirolla.github.io/Todo-list-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Todo-list-Odin-Project-", 
+    },
+
+    {
+        title: "Tic-Tac-Toe",
+        skills: ["HTML", "CSS", "JavaScript"],
+        author: "Patricia Tirolla",
+        previewLink: "https://patricia-tirolla.github.io/Tic-Tac-Toe-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Tic-Tac-Toe-Odin-Project-", 
+    },
+
+    {
+        title: "To-do List",
+        skills: ["HTML", "CSS", "JavaScript"],
+        author: "Patricia Tirolla",
+        previewLink: "https://patricia-tirolla.github.io/Todo-list-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Todo-list-Odin-Project-", 
+    },
+
+    {
+        title: "Tic-Tac-Toe",
+        skills: ["HTML", "CSS", "JavaScript"],
+        author: "Patricia Tirolla",
+        previewLink: "https://patricia-tirolla.github.io/Tic-Tac-Toe-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Tic-Tac-Toe-Odin-Project-", 
+    },
+
+    {
+        title: "To-do List",
+        skills: ["HTML", "CSS", "JavaScript"],
+        author: "Patricia Tirolla",
+        previewLink: "https://patricia-tirolla.github.io/Todo-list-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Todo-list-Odin-Project-", 
+    },
+
+    {
+        title: "Tic-Tac-Toe",
+        skills: ["HTML", "CSS", "JavaScript"],
+        author: "Patricia Tirolla",
+        previewLink: "https://patricia-tirolla.github.io/Tic-Tac-Toe-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Tic-Tac-Toe-Odin-Project-", 
+    },
+];
