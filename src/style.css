@@ -10,21 +10,13 @@
 
     --color-description-container: rgb(0, 0, 0);
     --title-font-size: 2rem;
-   /* --title font-weight: 600; */
-   --font-body-main:"Work Sans", sans-serif;
+    --title-font-weight: 600;
+    --font-body-main: "Roboto Mono", monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jersey+20&family=Rubik+Scribble&family=Work+Sans:wght@600&display=swap');
-
-.work-sans- {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
 
 body {
-    
+    font-family: var(--font-body-main);
    display: grid;
    grid-template-rows: 10vh 440vh 10vh;
    grid-template-columns: 100vw;
