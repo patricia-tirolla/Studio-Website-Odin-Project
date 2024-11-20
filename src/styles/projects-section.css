@@ -19,80 +19,82 @@
 
     background-color: var(--background-light);
     color: var(--secondary-bg-color);
-
-    .projects-container {
-        display: grid;
-        grid-template-columns: repeat(3, 380px);
-        grid-template-rows: repeat(3, 320px);
-        gap: 20px;
-
-        .project-cell {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-
-            padding: 20px;
-            color: var(--background-light);
-            background-color: var(--background-projects);
-            border-radius: 4px;
-
-            .img-container {
-                width: 100%;
-                height: 150px;
-
-                background-size: cover;
-                border-radius: 4px;
-                opacity: 0.8;
-            }
-
-            .project-skills-container {
-                display: flex;
-                gap: 10px;
-
-                span {
-                    font-size: 0.4rem;
-                    padding: 2px;
-                    border: 1px solid var(--button-color);
-                    border-radius: 2px;
-                }
-            }
-
-            .project-buttons-container {
-                display: flex;
-                gap: 10px;
-
-                .preview-button {
-                    background-color: var(--button-color);
-                    border: 1px solid var(--button-color);
-                    border-radius: 2px;
-                }
-
-                .code-button {
-                    color: var(--background-light);
-                    background-color: var(--background-projects);
-                    border: 1px dashed var(--button-color)
-                }
-
-                button {
-                    font-size: 0.6rem;
-                }
-            }
-
-            h5 {
-                margin-top: 0;
-                font-size: 1.5rem;
-            }
-
-            p {
-                /* font-size: 1rem; */
-            }
-        }
-    }
 }
 
-/* --------------------HOVER */
-.img-container:hover {
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 20px;
+}
+
+.project-cell {
+
+    padding: 20px;
+    color: var(--background-light);
+    background-color: var(--background-projects);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 4px;
+    /* width: 100%; */
+    height: 100%;
+
+    /* natalia styling */
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.project-text-container {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    visibility: hidden;
+    transform: translateY(100%);
+    transition: opacity 1s ease, transform 1s ease, visibility 0s ease 1s;
+
+    padding: 20px;
+    width: 100%;
+    background-color: var(--background-description-container);
+    color: var(--color-description-container);
+}
+
+.project-cell:hover .project-text-container {
+    
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    /* Move to original position */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.project-buttons-container {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.preview-button {
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 2px;
+}
+
+.code-button {
+    color: var(--background-light);
+    background-color: var(--background-projects);
+    border: 1px dashed var(--button-color)
+}
+
+.project-buttons:hover {
     cursor: pointer;
-    opacity: 0.5;
 }
 
+h5 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
