@@ -11,7 +11,6 @@
 body {
    
    display: grid;
-   /* grid-template-rows: 10vh 50vh 100vh 60vh 70vh 60vh 100vh 10vh; */
    grid-template-rows: 10vh 440vh 10vh;
    grid-template-columns: 100vw;
 }
