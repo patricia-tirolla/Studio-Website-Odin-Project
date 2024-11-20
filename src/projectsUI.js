@@ -14,13 +14,7 @@ export function displayProjects() {
     clone.querySelector(".author").textContent = project.author;
     clone.querySelector(".preview-link").setAttribute('href', project.previewLink); 
     clone.querySelector(".code-link").setAttribute('href', project.codeLink);
-    clone.querySelector(".img-container").style.backgroundImage = `url(${project.picture})`;
-
-    for (let skill of project.skills) {
-        let spanCreation = document.createElement("span");
-        spanCreation.textContent = skill;
-        clone.querySelector(".project-skills-container").appendChild(spanCreation);
-    }
+    clone.querySelector(".project-cell").style.backgroundImage = `url(${project.picture})`;
 
     projectsContainer.appendChild(clone);
     })
