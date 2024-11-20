@@ -1,8 +1,11 @@
+import todoListPic from "./img/todo-list.png"
+
 export const projectList = [
     {
         title: "To-do List",
         skills: ["HTML", "CSS", "JavaScript"],
         author: "Patricia Tirolla",
+        picture: todoListPic,
         previewLink: "https://patricia-tirolla.github.io/Todo-list-Odin-Project-/",
         codeLink: "https://github.com/patricia-tirolla/Todo-list-Odin-Project-", 
     },
