@@ -6,6 +6,8 @@
 
     --background-light: #F7F9FC;
     --background-projects: #132835;
+    --title-font-size: 2rem;
+   /* --title font-weight: 600; */
 }
 
 body {
