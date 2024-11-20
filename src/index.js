@@ -6,3 +6,4 @@ import './styles/meetus.css';
 import './styles/footer.css';
 import './styles/reset.css';
 import './style.css';
+import './styles/footer.css';
