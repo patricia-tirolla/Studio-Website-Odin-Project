@@ -4,7 +4,7 @@
     --text-color: #e0e6ed;
     --button-color: #20dfae;
     --shadow: 2px 2px 5px rgb(60, 58, 58);
-    --shadow-hover: 2px 2px 10px rgb(116, 116, 116);
+    --shadow-hover: 2px 2px 20px rgb(116, 116, 116);
     --background-light: #F7F9FC;
     --background-projects: #132835;
     --background-description-container: rgba(255, 255, 255, 0.825);
@@ -75,38 +75,18 @@ main {
     display: grid;
     grid-template-rows: 50vh 1fr 1fr 70vh 60vh 100vh;
 }
-   
-.hero {
-    height: 100%;
-    grid-row: 1/2;
-}
 
-.projects-section {
-    height: 100%;
-    grid-row: 2/3;
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--main-bg-color);
 }
 
 .contact-us-section {
-    height: 100%;
-    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: fit-content;
 }
-
-.meet-us-section {
-    height: 100%;
-    grid-row: 4/5;
-}
-
-.languages-container {
-    height: 100%;
-    grid-row: 5/6;
-}
-
-.form-section {
-    height: 100%;
-    grid-row: 6/7;
-}
-
-.footer-section {
-    height: 100%;
-    grid-row: 3/4;
-} */

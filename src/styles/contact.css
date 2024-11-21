@@ -1,9 +1,11 @@
 /* paticia changes */
 .wrap-all-container-contact {
+/* paticia changes */
+.wrap-all-container-contact {
     background-color: var(--main-bg-color);
-    color:var(--text-color);
+    color: var(--text-color);
     margin: 10px auto;
-    padding:40px 40px;
+    padding: 40px 40px;
     width: 100%;
     max-width: 1500px;
     height: 100%;
@@ -17,7 +19,7 @@
 }
 
 .contact-us-container-left {
-   display:grid;
+    display: grid;
     align-content: center;
     margin: auto;
     width: 270px;
@@ -25,7 +27,7 @@
 }
 
 .contact-us-container-left h3 {
-    font-size: var( --title-font-size);
+    font-size: var(--title-font-size);
     justify-self: start;
     align-self: start;
 
@@ -33,12 +35,12 @@
 
 .contact-us-container-left p {
     font-size: 1rem;
-    padding: 10px 0px; 
-    
+    padding: 10px 0px;
+
 }
 
-.contact-us-container-right{
- 
+.contact-us-container-right {
+
     grid-column: 2;
     grid-row: 1/2;
     /* align-content: center; */
@@ -49,31 +51,32 @@
 .contact-us-img {
     justify-self: right;
     border-radius: 5px;
-    width:70%;
+    width: 70%;
     height: auto;
-    
+
 }
+
 .contact-button-getstarted {
-   
-    color:var(--secondary-bg-color);
+
+    color: var(--secondary-bg-color);
     grid-column: 1/3;
     grid-row: 2;
-    justify-self:center;
+    justify-self: center;
     align-self: start;
     margin: 10px;
-  padding: 8px 30px;
-  border: none;
-  font-size: 1.1em;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  box-shadow: 0 6px 12px var(--shadow-color);
-  outline: none;
-  background-color: var(--button-hover-bg);
-  color: var(--button-hover-text);
-    
+    padding: 8px 30px;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    box-shadow: 0 6px 12px var(--shadow-color);
+    outline: none;
+    background-color: var(--button-hover-bg);
+    color: var(--button-hover-text);
+
 }
 
 .contact-button-getstarted:hover {
@@ -85,39 +88,39 @@
 
 .contact-button-getstarted:active {
     transform: translateY(2px);
-  box-shadow: 0 3px 8px var(--shadow-color);
+    box-shadow: 0 3px 8px var(--shadow-color);
 }
 
 
 @media (max-width: 768px) {
 
    
-   /* patricia changes */
-    .wrap-all-container-contact {
+   
+    .contact-us-section {
         
         grid-template-columns: 1fr;  
         grid-template-rows: auto auto;
     }
 
     .contact-us-container-left {
-        grid-column: 1;  
+        grid-column: 1;
         max-width: 600px;
-        align-items: center; 
+        align-items: center;
         text-align: center;
     }
 
     .contact-us-container-right {
         display: grid;
-        grid-column: 1;  
-        grid-row: 2;     
-        padding: 10px; 
+        grid-column: 1;
+        grid-row: 2;
+        padding: 10px;
         justify-content: center;
         align-content: center;
     }
 
     .contact-us-img {
-        width: 100%;  
-        max-width: 300px;  
+        width: 100%;
+        max-width: 300px;
         height: auto;
     }
 
@@ -130,14 +133,14 @@
 
     .contact-us-container-left p {
         font-size: 1rem;
-        
+
     }
 
-    .contact-button-getstarted  {
+    .contact-button-getstarted {
         justify-self: center;
-        align-self:first baseline;
-        grid-column: 1;  
-        grid-row: 3;    
+        align-self: first baseline;
+        grid-column: 1;
+        grid-row: 3;
         margin-top: 30px;
         padding: 8px 30px;
         border: none;
@@ -151,19 +154,17 @@
         outline: none;
         background-color: var(--button-hover-bg);
         color: var(--button-hover-text);
-      }
-      
-      .contact-button-getstarted:hover {
+    }
+
+    .contact-button-getstarted:hover {
         background-color: var(--button-hover-bg-color);
         transform: translateY(-5px);
         box-shadow: 0 8px 15px var(--shadow-color);
         color: white;
-      }
-      
-      .contact-button-getstarted:active {
+    }
+
+    .contact-button-getstarted:active {
         transform: translateY(2px);
         box-shadow: 0 3px 8px var(--shadow-color);
-      }
-      
-
+    }
 }

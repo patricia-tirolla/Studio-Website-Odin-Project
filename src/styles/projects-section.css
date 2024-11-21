@@ -104,6 +104,8 @@
     color: var(--color-description-container);
 
     h5 {
+        margin-top: 0;
+        font-size: 1.5rem;
         color: var(--color-description-container);
     }
 }
@@ -131,6 +133,10 @@
         text-decoration: none;
         color: var(--color-description-container);
     }
+        
+    i:hover {
+        font-size: 1.6rem;
+    }
 }
 
 .preview-button {
@@ -147,9 +153,4 @@
 
 .project-buttons:hover {
     cursor: pointer;
-}
-
-h5 {
-    margin-top: 0;
-    font-size: 1.5rem;
 }
