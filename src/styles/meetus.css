@@ -2,14 +2,17 @@
 .meet-us-section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 1fr 4fr;
+    padding: 40px 40px;
+    max-width: 1200px;
+    gap: 40px;
 
 }
 .meet-us-title {
     font-size: var(--title-font-size);
     color: var(--secondary-bg-color);
     justify-self:center;
-    align-self: center;
+    align-self: top;
 }
 
 
@@ -19,7 +22,7 @@
     align-items:center;
     justify-content:center ;
     gap: 5%;
-    margin: 5% 5%;
+   
 
 }
 
@@ -34,6 +37,7 @@
     background-size:auto;
     background-position: center;
     overflow: hidden;
+    border-radius: 5px;
     
 
 }
@@ -50,6 +54,7 @@
     visibility: hidden;
     transform: translateY(100%);
     transition: opacity 1s ease, transform 1s ease, visibility 0s ease 1s;
+    border-radius: 5px;
     
 }
 
@@ -100,6 +105,49 @@
 .meet-us-member-container.Natalia {
     background-image: url("/src/img/Natalia-img.png");
 }
+
+@media (max-width: 768px) {
+
+    .meet-us-section {
+        height: fit-content;
+        margin: 0px 0px;
+        
+    }
+
+
+    .meet-us-member-main-container {   
+        
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 40px;; 
+        height: fit-content;
+
+    }
+
+    .meet-us-member-container {
+    
+        grid-column: auto;
+        grid-row: auto;
+        width:200px;
+        height: auto;
+        align-self: center;
+        justify-self: center;
+
+    
+    }
+
+    .meet-us-title {
+       
+        justify-self:center;
+        align-self: center;
+        margin: 0px 0px;
+    }
+    
+
+}
+
+   
 
 
 
