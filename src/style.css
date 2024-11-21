@@ -5,7 +5,6 @@
     --secondary-bg-color: #2D2E5F;
     --text-color: #e0e6ed;
     --button-color: #65A5DF;
-
     --background-light: #F7F9FC;
     --background-projects: #132835;
     --background-description-container: rgba(255, 255, 255, 0.825);
@@ -79,61 +78,20 @@ main {
     height: fit-content;
 }
 
-/* 
-body {
-    display: flex;
-    flex-direction: column;
+ 1fr 70vh 60vh 100vh;
 }
 
-/* body {
-   display: grid;
-   grid-template-rows: 10vh 440vh 10vh;
-   grid-template-columns: 100vw;
-}
-
-.Header-Nav-Bar {
-    height: 100%;
-    grid-row: 1/2;
-    
-}
-
-main {
-    grid-row: 2/3;
-    display: grid;
-    grid-template-rows: 50vh 1fr 1fr 70vh 60vh 100vh;
-}
-   
 .hero {
-    height: 100%;
-    grid-row: 1/2;
-}
-
-.projects-section {
-    height: 100%;
-    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--main-bg-color);
 }
 
 .contact-us-section {
-    height: 100%;
-    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: fit-content;
 }
-
-.meet-us-section {
-    height: 100%;
-    grid-row: 4/5;
-}
-
-.languages-container {
-    height: 100%;
-    grid-row: 5/6;
-}
-
-.form-section {
-    height: 100%;
-    grid-row: 6/7;
-}
-
-.footer-section {
-    height: 100%;
-    grid-row: 3/4;
-} */

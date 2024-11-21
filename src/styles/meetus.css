@@ -146,9 +146,8 @@
         align-self: center;
         margin: 0px 0px;
     }
-    
-
 }
+
 
    
 @media (max-width: 425px) {
@@ -170,6 +169,7 @@
         background-size:cover;
     }
 }
+
 
 
    

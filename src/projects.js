@@ -1,4 +1,5 @@
-import patriciaTodoPic from "./img/patricia-todo.png"
+import patriciaTodoPic from "./img/patricia-todo2.png"
+import patriciaTicTacToePic from "./img/patricia-tictactoe.png"
 import odaiCalculatorPic from "./img/odai-calculator.jpeg"
 import odaiWatherPic from "./img/odai-weather.jpeg"
 import naghmehTicTacToePic from "./img/naghmeh-calculator.jpeg"
@@ -35,6 +36,7 @@ export const projectList = [
     {
         title: "Tic-Tac-Toe",
         author: "Patricia Tirolla",
+        picture: patriciaTicTacToePic,
         previewLink: "https://patricia-tirolla.github.io/Tic-Tac-Toe-Odin-Project-/",
         codeLink: "https://github.com/patricia-tirolla/Tic-Tac-Toe-Odin-Project-", 
     },
