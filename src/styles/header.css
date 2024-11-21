@@ -188,6 +188,7 @@ h5 {
   }
 
   .navbar-nav {
+  
     display: none;
     flex-direction: column;
     width: 100%;

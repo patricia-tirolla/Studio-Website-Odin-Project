@@ -49,12 +49,123 @@
     
 }
 .contact-button-getstarted {
-    background-color: var(--button-color);
+   
     color:var(--secondary-bg-color);
     grid-column: 1/3;
     grid-row: 2;
-    width: fit-content;
+   
     justify-self:center;
     align-self: start;
+    margin: 5px;
     
+  padding: 8px 30px;
+  border: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  box-shadow: 0 6px 12px var(--shadow-color);
+  outline: none;
+  background-color: var(--button-hover-bg);
+  color: var(--button-hover-text);
+    
+}
+
+.contact-button-getstarted:hover {
+    background-color: var(--button-hover-bg-color);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px var(--shadow-color);
+    color: white;
+}
+
+.contact-button-getstarted:active {
+    transform: translateY(2px);
+  box-shadow: 0 3px 8px var(--shadow-color);
+}
+
+
+@media (max-width: 768px) {
+
+   
+   
+    .contact-us-section {
+        
+        grid-template-columns: 1fr;  
+        grid-template-rows: auto auto;
+    }
+
+    .contact-us-container-left {
+        grid-column: 1;  
+        padding: 0 2%;  
+        max-width: 80%;
+        align-items: center; 
+        text-align: center;
+    }
+
+    .contact-us-container-right {
+        display: grid;
+        grid-column: 1;  
+        grid-row: 2;     
+        padding: 0 2%; 
+        justify-content: center;
+        align-content: center;
+    }
+
+    .contact-us-img {
+        width: 100%;  
+        max-width: 300px;  
+        height: auto;
+    }
+
+    .contact-button-getstarted {
+       
+        justify-self: center;
+        align-self:first baseline;
+        margin:1%;
+        grid-column: 1;  
+        grid-row: 3;    
+    }
+
+    .contact-us-container-left h3 {
+        font-size: 2.5rem;
+        padding: 2%; 
+    }
+
+    .contact-us-container-left p {
+        font-size: 1rem;
+      
+
+    }
+
+    .contact-button-getstarted  {
+        margin: 5px;
+        padding: 8px 30px;
+        border: none;
+        font-size: 1.1em;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        box-shadow: 0 6px 12px var(--shadow-color);
+        outline: none;
+        background-color: var(--button-hover-bg);
+        color: var(--button-hover-text);
+      }
+      
+      .contact-button-getstarted:hover {
+        background-color: var(--button-hover-bg-color);
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px var(--shadow-color);
+        color: white;
+      }
+      
+      .contact-button-getstarted:active {
+        transform: translateY(2px);
+        box-shadow: 0 3px 8px var(--shadow-color);
+      }
+      
+
 }
