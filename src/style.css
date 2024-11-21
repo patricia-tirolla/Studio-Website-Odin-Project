@@ -37,7 +37,7 @@
   
     --navbar-hover-bg-color: #2D2E5F;
     --navbar-border-color: #333;
-  }
+}
 
 
 body {
@@ -76,9 +76,6 @@ main {
     background-color: var(--main-bg-color);
     width: 100%;
     height: fit-content;
-}
-
- 1fr 70vh 60vh 100vh;
 }
 
 .hero {
