@@ -12,6 +12,8 @@
     --title-font-size: 2rem;
    /* --title font-weight: 600; */
 }
+
+
 body {
     display:flex;
     flex-direction:column;
