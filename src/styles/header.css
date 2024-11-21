@@ -130,6 +130,12 @@
 }
 
 .Header-Text-Pic .image-section {
+
+  /* patricia changes */
+  display: flex;
+  justify-content: end;
+
+  
   flex: 1;
   max-width: 50%;
   text-align: center;

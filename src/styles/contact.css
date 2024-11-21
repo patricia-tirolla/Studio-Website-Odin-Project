@@ -41,7 +41,7 @@
  
     grid-column: 2;
     grid-row: 1/2;
-    align-content: center;
+    /* align-content: center; */
     margin: auto;
 
 }
