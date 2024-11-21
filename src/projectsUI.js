@@ -1,6 +1,5 @@
 import {projectList,  } from "./projects";
 
-
 export function displayProjects() {
     let projectsContainer = document.querySelector(".projects-container");
     

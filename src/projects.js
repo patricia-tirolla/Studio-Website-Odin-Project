@@ -10,19 +10,19 @@ import nataliaDashboardPic from "./img/natalia-dashboard.jpeg"
 
 export const projectList = [
     {
-        title: "To-do List",
-        author: "Patricia Tirolla",
-        picture: patriciaTodoPic,
-        previewLink: "https://patricia-tirolla.github.io/Todo-list-Odin-Project-/",
-        codeLink: "https://github.com/patricia-tirolla/Todo-list-Odin-Project-", 
-    },
-
-    {
         title: "Calculator",
         author: "Natalia Torres",
         picture: nataliaCalculatorPic,
         previewLink: " https://natito9.github.io/Odin-project-calculator/",
         codeLink: "https://github.com/Natito9/Odin-project-calculator", 
+    },
+    
+    {
+        title: "To-do List",
+        author: "Patricia Tirolla",
+        picture: patriciaTodoPic,
+        previewLink: "https://patricia-tirolla.github.io/Todo-list-Odin-Project-/",
+        codeLink: "https://github.com/patricia-tirolla/Todo-list-Odin-Project-", 
     },
 
     {

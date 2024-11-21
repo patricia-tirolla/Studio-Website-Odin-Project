@@ -3,7 +3,6 @@ import { scrollToForm } from "./contact"
 import "./form.js"
 
 import "./img/fontawesome/css/all.min.css"
-
 import './styles/header.css';
 import "./styles/projects-section.css";
 import './styles/contact.css';
@@ -13,10 +12,6 @@ import './styles/form.css';
 import './styles/footer.css';
 import './styles/reset.css';
 import './style.css';
-
-import './form.js';
-
-
 
 displayProjects();
 
