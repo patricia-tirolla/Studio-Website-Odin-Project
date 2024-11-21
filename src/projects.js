@@ -1,4 +1,4 @@
-import patriciaTodoPic from "./img/patricia-todo.png"
+import patriciaTodoPic from "./img/patricia-todo2.png"
 import patriciaTicTacToePic from "./img/patricia-tictactoe.png"
 import odaiCalculatorPic from "./img/odai-calculator.jpeg"
 import odaiWatherPic from "./img/odai-weather.jpeg"
