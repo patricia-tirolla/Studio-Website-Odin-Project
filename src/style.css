@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --main-bg-color: #283C48;
     --secondary-bg-color: #19303D;
     --text-color: #e0e6ed;
@@ -12,7 +12,50 @@
     --title-font-size: 2rem;
     --title-font-weight: 600;
     --font-body-main: "Roboto Mono", monospace;
+} */
+
+:root {
+    --main-bg-color:#1B1B3C;
+    --secondary-bg-color: #2D2E5F;
+    --text-color: #e0e6ed;
+    --button-color: #65A5DF;
+
+    --background-light: #F7F9FC;
+    --background-projects: #132835;
+    --background-description-container: rgba(255, 255, 255, 0.825);
+
+    --color-description-container: rgb(0, 0, 0);
+    --title-font-size: 2rem;
+    --title-font-weight: 600;
+    --font-body-main: "Roboto Mono", monospace;
+
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --navbar-text-color: #e0e6ed;
+    --hover-background-color: #e9ecef;
+    --disabled-color: gray;
 }
+
+/* this are naghmeh colors, some have been changed  */
+:root {
+    --background-color: #1B1B3C;
+
+  
+ 
+    --button-border-color: #333;
+    --button-hover-bg-color: #333;
+    --button-hover-text-color: white;
+    --paragraph-color: #e0e6ed;
+   
+
+    --button-bg-color:  #65A5DF; 
+    --button-text-color: #333;
+    --button-hover-bg:  #65A5DF; 
+    --button-hover-text: #1f3924;
+    --navbar-bg-color: #2D2E5F;
+  
+    --navbar-hover-bg-color: #2D2E5F;
+    --navbar-border-color: #333;
+  }
 
 
 body {
