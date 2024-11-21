@@ -34,7 +34,7 @@ main {
     display: grid;
     grid-template-rows: 50vh 100vh 60vh 70vh 60vh 100vh;
 }
-
+   
 .hero {
     height: 100%;
     grid-row: 1/2;
