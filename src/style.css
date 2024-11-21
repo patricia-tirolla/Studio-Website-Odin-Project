@@ -24,7 +24,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-content: ce;
 }
 
 /* max-width settings */
@@ -35,6 +35,45 @@ main {
     justify-items: center;
     height: fit-content;
     width: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--main-bg-color);
+}
+
+.contact-us-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: fit-content;
+}
+
+/* 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* body {
+   display: grid;
+   grid-template-rows: 10vh 440vh 10vh;
+   grid-template-columns: 100vw;
+}
+
+.Header-Nav-Bar {
+    height: 100%;
+    grid-row: 1/2;
+    
+}
+
+main {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 50vh 1fr 1fr 70vh 60vh 100vh;
 }
 
 .hero {
