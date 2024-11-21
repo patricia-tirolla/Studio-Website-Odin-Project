@@ -1,7 +1,7 @@
 import patriciaTodoPic from "./img/patricia-todo.png"
 import odaiCalculatorPic from "./img/odai-calculator.jpeg"
 import odaiWatherPic from "./img/odai-weather.jpeg"
-import naghmehCalculatorPic from "./img/naghmeh-calculator.jpeg"
+import naghmehTicTacToePic from "./img/naghmeh-calculator.jpeg"
 import naghmehWeatherPic from "./img/naghmeh-weather.jpeg"
 import nataliaCalculatorPic from "./img/natalia-calculator.jpeg"
 import nataliaTicTacToePic from "./img/natalia-tictactoe.jpeg"
@@ -64,18 +64,18 @@ export const projectList = [
     },
 
     {
-        title: "Calculator",
+        title: "Tic-Tac-Toe",
         author: "Naghmeh",
-        picture: naghmehCalculatorPic,
-        previewLink: "",
-        codeLink: "", 
+        picture: naghmehTicTacToePic,
+        previewLink: "https://tic-tac-toe-22zd.vercel.app/",
+        codeLink: "https://github.com/NaghmehGhorashi/tic-tac-toe-.git", 
     },
 
     {
         title: "Weather App",
         author: "Naghmeh",
         picture: naghmehWeatherPic,
-        previewLink: "",
-        codeLink: "", 
+        previewLink: "https://naghmehghorashi.vercel.app/",
+        codeLink: "https://github.com/NaghmehGhorashi/weather.git", 
     },
 ];
