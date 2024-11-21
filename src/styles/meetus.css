@@ -146,12 +146,17 @@
         align-self: center;
         margin: 0px 0px;
     }
-    
-
 }
 
-   
+/* @media (max-width: 425px) {
+    .meet-us-section {
+        padding: 10px;
+    }
 
+    .meet-us-member-main-container {
+        gap: 10px;
+    }
+} */
 
 
    
