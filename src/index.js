@@ -1,6 +1,8 @@
 import { displayProjects } from "./projectsUI";
 import { scrollToForm } from "./contact"
 
+import "./img/fontawesome/css/all.min.css"
+
 import './styles/header.css';
 import "./styles/projects-section.css";
 import './styles/contact.css';

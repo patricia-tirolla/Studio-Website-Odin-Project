@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --main-bg-color: #283C48;
     --secondary-bg-color: #19303D;
     --text-color: #e0e6ed;
@@ -6,26 +6,67 @@
 
     --background-light: #F7F9FC;
     --background-projects: #132835;
-}
+} */
 
 .projects-section {
-    height: 100%;
-    padding: 50px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
 
+    width: 100%;
+    background-color: var(--background-light);
+}
+
+.wrap-all-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 
-    background-color: var(--background-light);
+    width: 100%;
+    max-width: 1500px;
+    padding: 40px;
+    
     color: var(--secondary-bg-color);
+
+    h3 {
+        font-size: var(--title-font-size);
+    }
 }
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: repeat(3, 220px);
     gap: 20px;
+    width: 100%;
+
+    overflow: scroll;
+
+    @media (min-width: 1440px ) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 300px);
+        gap: 50px;
+        width: 100%;
+
+        overflow: scroll;
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 330px);
+        grid-template-rows: repeat(5, 220px);
+        gap: 30px;
+
+        overflow: scroll;
+    }
+
+    @media (max-width: 425px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 250px);
+
+        overflow: scroll;
+    }
 }
 
 .project-cell {
@@ -38,7 +79,7 @@
     background-repeat: no-repeat;
 
     border-radius: 4px;
-    /* width: 100%; */
+    min-width: 100%;
     height: 100%;
 
     /* natalia styling */
@@ -61,10 +102,14 @@
     width: 100%;
     background-color: var(--background-description-container);
     color: var(--color-description-container);
+
+    h5 {
+        color: var(--color-description-container);
+    }
 }
 
 .project-cell:hover .project-text-container {
-    
+
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -75,7 +120,17 @@
 .project-buttons-container {
     display: flex;
     gap: 10px;
-    justify-content: end;
+    font-size: 1.5rem;
+
+    a {
+        text-decoration: none;
+        color: var(--color-description-container);
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: var(--color-description-container);
+    }
 }
 
 .preview-button {

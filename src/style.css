@@ -10,18 +10,14 @@
 
     --color-description-container: rgb(0, 0, 0);
     --title-font-size: 2rem;
-    --title-font-weight: 600;
-    --font-body-main: "Roboto Mono", monospace;
+   /* --title font-weight: 600; */
 }
 
-
 body {
-    font-family: var(--font-body-main);
    display: grid;
    grid-template-rows: 10vh 440vh 10vh;
    grid-template-columns: 100vw;
 }
-
 
 .Header-Nav-Bar {
     height: 100%;
@@ -69,3 +65,4 @@ main {
     height: 100%;
     grid-row: 3/4;
 }
+
