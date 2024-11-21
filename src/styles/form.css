@@ -1,10 +1,4 @@
-:root {
-    --main-bg-color: #283C48;
-    --secondary-bg-color: #19303D;
-    --text-color: #e0e6ed;
-    --button-color: #20dfae;
-    --button-hover-color: #ffffff;
-}
+
 /* Form Section */
 .form-section {
     display: flex;
@@ -54,7 +48,7 @@
     font-size: 1rem;
     color: var(--text-color);
     outline: none;
-    border: 2px solid #3C505B;
+    border: 2px solid var(--main-bg-color);
     font-family: 'Roboto Mono', Courier, monospace;
     width: 100%;
 }
