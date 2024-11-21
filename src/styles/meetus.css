@@ -8,8 +8,7 @@
     width: 100%;
     gap: 40px;
     justify-self: center;
-    
-
+    margin: auto;
 }
 .meet-us-title {
     font-size: var(--title-font-size);

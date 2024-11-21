@@ -1,5 +1,5 @@
-
-.contact-us-section {
+/* paticia changes */
+.wrap-all-container-contact {
     background-color: var(--main-bg-color);
     color:var(--text-color);
     margin: 10px auto;
@@ -13,6 +13,7 @@
     /* justify-content: space-around; */
     align-items: center;
 
+    max-width: 1500px;
 }
 
 .contact-us-container-left {
@@ -40,7 +41,7 @@
  
     grid-column: 2;
     grid-row: 1/2;
-    align-content: center;
+    /* align-content: center; */
     margin: auto;
 
 }
@@ -91,8 +92,8 @@
 @media (max-width: 768px) {
 
    
-   
-    .contact-us-section {
+   /* patricia changes */
+    .wrap-all-container-contact {
         
         grid-template-columns: 1fr;  
         grid-template-rows: auto auto;
