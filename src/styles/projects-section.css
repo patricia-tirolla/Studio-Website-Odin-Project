@@ -35,12 +35,16 @@
     h3 {
         font-size: var(--title-font-size);
     }
+
+    h3 {
+        font-size: var(--title-font-size);
+    }
 }
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: repeat(3, 220px);
     gap: 20px;
     min-width: 100%;
     justify-content: center;

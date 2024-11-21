@@ -12,7 +12,13 @@
     --title-font-size: 2rem;
    /* --title font-weight: 600; */
 }
+body {
+    display:flex;
+    flex-direction:column;
+    height:auto;
+}
 
+/* 
 body {
     display: flex;
     flex-direction: column;
@@ -35,7 +41,7 @@ main {
     display: grid;
     grid-template-rows: 50vh 1fr 1fr 70vh 60vh 100vh;
 }
-
+   
 .hero {
     height: 100%;
     grid-row: 1/2;
@@ -69,5 +75,4 @@ main {
 .footer-section {
     height: 100%;
     grid-row: 3/4;
-}
- */
+} */
