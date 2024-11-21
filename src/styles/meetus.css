@@ -150,5 +150,28 @@
 
 
    
+@media (max-width: 425px) {
+    .meet-us-section {
+        padding: 10px;
+    }
+
+    .meet-us-member-main-container {
+        gap: 10px;
+        
+    }
+
+    .meet-us-member-container {
+        
+        height: auto;
+        max-width:100px;
+        min-width: 50px;
+        min-height: 150px;
+        background-size:cover;
+    }
+}
+
+
+
+   
 
 

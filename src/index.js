@@ -14,6 +14,8 @@ import './styles/footer.css';
 import './styles/reset.css';
 import './style.css';
 
+import './form.js';
+
 
 
 displayProjects();
