@@ -1,4 +1,4 @@
-
+/* paticia changes */
 .wrap-all-container-contact {
     background-color: var(--main-bg-color);
     color:var(--text-color);
@@ -92,8 +92,8 @@
 @media (max-width: 768px) {
 
    
-   
-    .contact-us-section {
+   /* patricia changes */
+    .wrap-all-container-contact {
         
         grid-template-columns: 1fr;  
         grid-template-rows: auto auto;
