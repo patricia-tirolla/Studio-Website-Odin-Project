@@ -5,7 +5,10 @@
     grid-template-rows: 1fr 4fr;
     padding: 40px 40px;
     max-width: 1200px;
+    width: 100%;
     gap: 40px;
+    justify-self: center;
+    
 
 }
 .meet-us-title {
@@ -38,6 +41,7 @@
     background-position: center;
     overflow: hidden;
     border-radius: 5px;
+    justify-self: center;
     
 
 }
