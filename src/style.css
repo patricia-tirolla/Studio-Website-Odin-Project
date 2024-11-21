@@ -18,6 +18,29 @@ body {
     height:auto;
 }
 
+/* max-width settings */
+.wrap-all-container {
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--main-bg-color);
+}
+
+.contact-us-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    width: 100%;
+}
 /* 
 body {
     display: flex;

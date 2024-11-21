@@ -23,6 +23,10 @@
   background-color: var(--navbar-bg-color);
   padding: 10px 20px;
   box-shadow: 0 2px 5px var(--shadow-color);
+
+  /* patricia changes */
+  display: flex;
+  justify-content: center;
 }
 
 .navbar {
@@ -31,6 +35,9 @@
   align-items: center;
   background-color: var(--navbar-bg-color);
   color: var(--navbar-text-color);
+
+  /* patricia changes */
+  width: 100%;
 }
 
 .navbar-brand {

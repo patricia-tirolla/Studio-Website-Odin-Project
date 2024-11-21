@@ -1,5 +1,5 @@
 
-.contact-us-section {
+.wrap-all-container-contact {
     background-color: var(--main-bg-color);
     color:var(--text-color);
     margin: auto;
@@ -11,6 +11,7 @@
     justify-content: space-around;
     align-items: center;
 
+    max-width: 1500px;
 }
 
 .contact-us-container-left {
